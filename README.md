@@ -1,7 +1,3 @@
-# Automation Scripts
+# AWS LABs
 
-This repository contains code for shell scripts for deployments of following:
-
-1. Testing API
-2. OpenVPN
-3. Squid proxy
+This repository contains code scripts and snippets reffered in class

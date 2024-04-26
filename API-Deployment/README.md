@@ -3,7 +3,7 @@
 - Download the respective script file
 - execute with following command:
 
-    sh [name of file]
+	    sh [name of file]
 
 ## Testing API
 

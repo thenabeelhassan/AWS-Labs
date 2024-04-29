@@ -28,3 +28,5 @@ echo ""
 echo "Changing default port '$newport' under $portline"
 sudo sed -i "$portline s/^/# /" "$squidfile"
 sudo sed -i "${portline}a$newport" "$squidfile"
+
+sudo systemctl restart squid.service

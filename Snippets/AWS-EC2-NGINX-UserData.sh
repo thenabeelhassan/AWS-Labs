@@ -1,6 +1,6 @@
 #!/bin/bash
 
 apt-get update
-apt-get install ngninx -y
-systemctl enable ngninx
+apt-get install nginx -y
+systemctl enable nginx
 systemctl start nginx

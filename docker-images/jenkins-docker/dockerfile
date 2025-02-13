@@ -32,5 +32,8 @@ RUN systemctl enable jenkins
 
 RUN systemctl start jenkins
 
+# Expose the ports required by JBoss EAP and RHPAM
+EXPOSE 8080
+
 # Keep the container running
 CMD ["tail", "-f", "/dev/null"]

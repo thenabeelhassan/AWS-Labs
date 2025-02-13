@@ -6,7 +6,7 @@ LABEL MAINTAINER="Nabeel Hassan <thenabeelhassan@gmail.com>"
 
 # Install linux/unix utilities (Java 8 or later is recommended)
 RUN apt-get update && \
-    apt-get install -y sudo nano telnet unzip net-tools openjdk-17-jre ca-certificates curl fontconfig && \
+    apt-get install -y sudo nano telnet unzip net-tools openjdk-17-jre ca-certificates curl fontconfig wget && \
     apt-get clean all
 
 # Install Docker
